@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicollas.dev | Portfólio</title>
+    <meta name="description"
+        content="Portfólio do desenvolvedor Front-End Nicollas De Jorge para compartilhar projetos e habilidades desenvolvidas.">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class="menu__link active" href="#home">
+                        <span class="menu__text">Início</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#about">
+                        <span class="menu__text">Sobre</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#projects">
+                        <span class="menu__text">Projetos</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#contact">
+                        <span class="menu__text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <a class="header__brand" href="#home">
+            <img class="brand__logo" src="./src/img/logo-dark-mode.svg" alt="Logo Nico">
+        </a>
+
+        <div class="header__toggle">
+            <div class="theme__toggle">
+                <input type="checkbox" name="theme-toggle" id="theme-toggle">
+                <label for="theme-toggle">
+                    <i id="toogle-theme" class="bi bi-moon-stars"></i>
+                    <div class="ball">
+
+                    </div>
+                    <i id="toogle-theme" class="bi bi-brightness-high"></i>
+                </label>
+            </div>
+        </div>
+
+    </header>
+
+    <nav class="nav--mobile">
+        <ul class="menu menu--mobile">
+            <li class="menu__item">
+                <a class="menu__link" href="#home">
+                    <i class="menu__icon bi bi-house-door"></i>
+                    <span class="menu__text">Início</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#about">
+                    <i class="menu__icon bi bi-person"></i>
+                    <span class="menu__text">Sobre</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#projects">
+                    <i class="menu__icon bi bi-window-stack"></i>
+                    <span class="menu__text">Projetos</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#contact">
+                    <i class="menu__icon bi bi-envelope"></i>
+                    <span class="menu__text">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <section id="home">
+            <h1>
+                <b>Soluções Criativas &</b>
+                Desenvolvimento Front-end
+            </h1>
+
+            <p>Nicollas De Jorge, Porto Alegre-RS, Desenvolvedor Front-end.</p>
+
+            <ul class="menu--social">
+                <li>
+                    <a class="menu__link" href="https://www.linkedin.com/in/nicollasdsg/" target="_blank">
+                        <i class="menu__icon bi bi-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="" target="_blank">
+                        <i class="menu__icon bi bi-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="" target="_blank">
+                        <i class="menu__icon bi bi-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <a href="#projects">
+                <button class="btn btn--primary">
+                    <span>Ver Projetos</span>
+                    <i class="bi bi-arrow-down-right"></i>
+                </button>
+            </a>
+
+
+        </section>
+        <section id="techs">
+            <h2>Conhecimento nas principais tecnologias do mercado</h2>
+            <ul class="techs__list">
+                <li class="techs__item">
+                    <img class="techs__logo" src="./src/img/html5.svg" alt="Logo HTML5">
+                </li>
+                <li class="techs__item">
+                    <img class="techs__logo" src="./src/img/css3.svg" alt="Logo CSS3">
+                </li>
+                <li class="techs__item">
+                    <img class="techs__logo" src="./src/img/javascript.svg" alt="Logo Javascript">
+                </li>
+                <li class="techs__item">
+                    <img class="techs__logo" src="./src/img/react.svg" alt="Logo React">
+                </li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projetos</h2>
+            <div class="projects__container">
+                <div class="projects__card">
+                    <img class="card__cover" src="./src/img/multiverse.png" alt="Capa Projeto Multiverso">
+                    <div class="card__body">
+                        <h3 class="card__title">Spiderman Multiverso</h3>
+                        <p class="card__description">Página Web</p>
+                        <ul class="card__list">
+                            <li class="card__item">Carrossel interativo</li>
+                            <li class="card__item">Lista de filmes</li>
+                            <li class="card__item">Galerias de imagens</li>
+                        </ul>
+                        <ul class="techs__list">
+                            <li class="techs__item">
+                                <img class="techs__logo" src="./src/img/html5.svg" alt="Logo HTML5">
+                            </li>
+                            <li class="techs__item">
+                                <img class="techs__logo" src="./src/img/css3.svg" alt="Logo CSS3">
+                            </li>
+                            <li class="techs__item">
+                                <img class="techs__logo" src="./src/img/javascript.svg" alt="Logo Javascript">
+                            </li>
+                        </ul>
+                        <div class="card__buttons">
+                            <a href="https://nicollasd.github.io/spiderman-multiverse-page/" class="btn btn--primary">
+                                <span>Prévia</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                            <a href="https://github.com/NicollasD/landing-page-stranger-things-dio" class="btn">
+                                <span>Repositório</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__card card--reverse">
+                    <img class="card__cover" src="./src/img/stranger-things.png" alt="Capa Stranger Things">
+                    <div class="card__body">
+                        <h3 class="card__title">Mundo Invertido - S. Things</h3>
+                        <p class="card__description">Landing page sobre a temporada 4 da série da Netflix Stranger
+                            Things.</p>
+                        <ul class="card__list">
+                            <li class="card__item">Breves informações sobre a série.</li>
+                            <li class="card__item">Inversão de mundos que muda todo o layout do site.</li>
+                        </ul>
+                        <ul class="techs__list">
+                            <li class="techs__item">
+                                <img class="techs__logo" src="./src/img/html5.svg" alt="Logo HTML5">
+                            </li>
+                            <li class="techs__item">
+                                <img class="techs__logo" src="./src/img/css3.svg" alt="Logo CSS3">
+                            </li>
+                            <li class="techs__item">
+                                <img class="techs__logo" src="./src/img/javascript.svg" alt="Logo Javascript">
+                            </li>
+                        </ul>
+                        <div class="card__buttons">
+                            <a href="https://nicollasd.github.io/landing-page-stranger-things-dio/"
+                                class="btn btn--primary">
+                                <span>Prévia</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                            <a href="https://github.com/NicollasD/landing-page-stranger-things-dio" class="btn">
+                                <span>Repositório</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__card">
+                    <img class="card__cover" src="./src/img/yugioh.png" alt="Capa Yu-gi-oh Joken-Po">
+                    <div class="card__body">
+                        <h3 class="card__title">Yu-Gi-Oh! Joken-Po</h3>
+                        <p class="card__description">Jogo de navegador em Javascript</p>
+                        <ul class="card__list">
+                            <li class="card__item">Jogo interativo.</li>
+                            <li class="card__item">Engine toda em Javascript</li>
+                        </ul>
+                        <div class="card__buttons">
+                            <a href="https://nicollasd.github.io/yugioh-jokenpo-game-dio/" class="btn btn--primary">
+                                <span>Prévia</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                            <a href="https://github.com/NicollasD/yugioh-jokenpo-game-dio" class="btn">
+                                <span>Repositório</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/NicollasD" class="btn btn--primary">
+                    <span>Ver Todos os Projetos</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about__content1">
+                <img class="about__photo" src="./src/img/nico.png" alt="Nicollas">
+                <div class="about__description">
+                    <h2>Sobre mim</h2>
+                    <p>Nicollas De Jorge. 32 Anos. Sempre gostei muito de tecnologia e tive experiência com design
+                        gráfico, então resolvi migrar para o Desenvolvimento Front-End. Atualmente participo do Bootcamp
+                        Front-End DIO + RiHappy e também faço parte do Projeto One Next Education da Alura com a Oracle.
+                    </p>
+                    <div class="about__icons">
+                        <i class="bi bi-translate"></i>
+                        <span>Inglês: Intermediário</span>
+                    </div>
+                    <div class="description__buttons">
+                        <a href="https://www.linkedin.com/in/nicollasdsg/" target="_blank">
+                            <button class="btn btn--primary">
+                                <span>Conecte-se Comigo</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </button>
+                        </a>
+                        <a href="">
+                            <button class="btn">
+                                <span>Currículo</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="about__content2">
+                <div class="col1">
+                    <div class="row1">
+                        <h3>Formação</h3>
+                        <div class="row1__item">
+                            <h4>Bootcamp Front-End Dio + RiHappy</h4>
+                            <span>2024</span>
+                            <div class="about__icons">
+                                <i class="bi bi-bank"></i>
+                                <span>Digital Innovation One</span>
+                            </div>
+                            <div class="about__icons">
+                                <i class="bi bi-mortarboard"></i>
+                                <span>Certificação em Desenvolvimento Front-End</span>
+                            </div>
+                        </div>
+                        <div class="row1__item">
+                            <h4>Bootcamp Front-End Dio + RiHappy</h4>
+                            <span>2024</span>
+                            <div class="about__icons">
+                                <i class="bi bi-bank"></i>
+                                <span>Alura + Oracle</span>
+                            </div>
+                            <div class="about__icons">
+                                <i class="bi bi-mortarboard"></i>
+                                <span>Certificação em Desenvolvimento Front-End</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <h3>Experiências</h3>
+                        <h4></h4>
+                        <span></span>
+                        <span>
+                        </span>
+                        <ul class="about__list">
+                            <li class="about__item"></li>
+                            <li class="about__item"></li>
+                            <li class="about__item"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col2">
+                    <h3>Cursos</h3>
+                    <div id="accordion">
+                        <div class="accordion__item">
+                            <button class="accordion__header start">
+                                <span>Versionamento de Código com Git e GitHub</span>
+                                <i class="bi bi-caret-down-fill"></i>
+                            </button>
+                            <div class="accordion__body">
+                                <p>
+                                    Digital Innovation One. Fev 2023. 2h.
+                                </p>
+                                <p>
+                                    O que é versionamento de código, Git e GitHub. Como instalar e configurar o Git
+                                    em diferentes sistemas
+                                    operacionais e como autenticar via Token e SSH. Como manusear repositórios, indo
+                                    desde a criação e clonagem
+                                    até o gerenciamento de branches, passando por todas as etapas de salvar,
+                                    desfazer e sincronizar alterações
+                                    com o repositório remoto.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="accordion__header end">
+                                <span>Contribuindo em um Projeto Open Source no GitHub</span>
+                                <i class="bi bi-caret-down-fill"></i>
+                            </button>
+                            <div class="accordion__body end">
+                                <p>
+                                    Digital Innovation One. Nov 2024. 1h.
+                                </p>
+                                <p>
+                                    Lab prático sobre colaboração em projetos de código aberto.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+
+        <section id="contact">
+            <h2>Contate-me</h2>
+            <p>Estou disponível para serviços e novas conexões. Contate-me via
+                e-mail e conecte-se comigo através das minhas redes sociais.
+            </p>
+            <ul class="menu menu--social">
+                <li>
+                    <a class="menu__link" href="https://github.com/NicollasD" target="_blank">
+                        <i class="menu__icon bi bi-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="https://www.linkedin.com/in/nicollasdsg/" target="_blank">
+                        <i class="menu__icon bi bi-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="https://www.instagram.com/n0thingm4n/" target="_blank">
+                        <i class="menu__icon bi bi-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </li>
+            </ul>
+            <a href="mailto:nicollasdejorge@gmail.com">
+                <button class="btn btn--primary">
+                    <span class="email">nicollasdejorge@gmail.com</span>
+                </button>
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero" da Digital Innovation One.</p>
+    </footer>
+    <script src="./src/js/scripts.js"></script>
+</body>
+
+</html>

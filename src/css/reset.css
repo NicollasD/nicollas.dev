@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align:baseline;
+    list-style: none;
+    text-decoration: none;
+
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary-bg-color) transparent;
+
+    ::-webkit-scrollbar {
+        width: 0.5rem;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--secondary-bg-color);
+        border-radius: 50rem;
+    }
+
+}
